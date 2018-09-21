@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-client
+
+eureka:
+  client:
+    defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+server:
+  port: 1111
+
+
